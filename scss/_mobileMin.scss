@@ -1,0 +1,303 @@
+// Reponsivness for Mobile - Min (320px)
+
+@media screen and (max-width: 320px) {
+  body {
+    // background: yellow;
+  }
+
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  // NavBar
+  nav {
+    width: 91%;
+    margin: 1rem auto 0rem auto;
+
+    img {
+      width: 47%;
+    }
+  }
+
+  // Section 1 (header)
+  .section1 {
+    margin: 1.5rem 0rem 0rem 0rem;
+  }
+
+  .section1-text {
+    margin: 1rem auto 0rem auto;
+
+    h1 {
+      font-size: 40px;
+      margin: 20px auto;
+      padding: 0px 5px;
+    }
+
+    p {
+      font-size: 15px;
+      padding: 0px 5px;
+      font-weight: 500;
+    }
+  }
+
+  // Testimonial
+  .section2 {
+    margin: 1.5rem 0rem 0rem 0rem;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 13.5px;
+      margin: 0.4rem auto 1rem auto;
+      width: 100%;
+    }
+
+    .testimonials {
+      margin: 3rem 0rem 0rem 0rem;
+      grid-template-columns: repeat(1, 1fr);
+      grid-row-gap: 40px;
+
+      h2 {
+        margin: 1rem 0rem 1rem 0rem;
+      }
+
+      p {
+        width: 100%;
+        line-height: 1.6;
+      }
+
+      .testimonial {
+        padding: 20px 25px 10px 25px;
+      }
+    }
+    .section2-end {
+      p {
+        font-weight: 600;
+        font-size: 14.5px;
+        width: 100%;
+      }
+
+      button {
+        font-size: 14px;
+        padding: 14px 75px;
+        margin: 1rem auto 1rem auto;
+      }
+    }
+  }
+
+  // Section3 (Progress)
+  .section3 {
+    margin: 3rem 0rem 0rem 0rem;
+
+    .container {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .progress {
+      margin: 3rem auto 4rem auto;
+      padding: 25px 10px 100px 10px;
+      width: 100%;
+
+      .line {
+        left: 5.5rem;
+      }
+
+      .progress-div {
+        margin: 70px auto 0px auto;
+
+        h3 {
+          font-size: 17px;
+        }
+
+        h2 {
+          font-size: 14px;
+          width: 90%;
+          text-align: left;
+          margin: 0px 0px 0px 20px;
+        }
+
+        img {
+          width: 85%;
+          margin: 0px 0px 0px 9px;
+        }
+      }
+    }
+  }
+
+  // Section 4 (Offices)
+  .section4 {
+    margin: 3rem 0rem 0rem 0rem;
+    height: 142vh;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    .offices-flex-img {
+      display: none;
+    }
+
+    .office {
+      margin: 1rem auto;
+      width: 280px;
+      height: 250px;
+
+      img {
+        margin: 1.3rem 0rem 0.5rem 0;
+      }
+    }
+  }
+
+  // Section 5 (Our Investors)
+  .section5 {
+    height: 170vh;
+
+    h1 {
+      font-size: 40px;
+      margin: 3rem auto 0rem auto;
+    }
+
+    p {
+      font-size: 14px;
+      margin: 0.5rem auto 1.5rem auto;
+      width: 97.5%;
+    }
+
+    .investors {
+      margin: 2.5rem auto 0rem auto;
+      grid-column-gap: 20px;
+      grid-template-columns: 1fr;
+    }
+
+    .investor {
+      padding: 15px 20px;
+      width: 300px;
+      height: 140px;
+      border: none;
+
+      img {
+        width: 72%;
+      }
+    }
+  }
+
+  // Request Demo
+  .section6 {
+    height: 90vh;
+
+    h1 {
+      font-size: 40px;
+      width: 100%;
+    }
+
+    p {
+      line-height: 1.5;
+      font-size: 15px;
+    }
+
+    button {
+      padding: 14px 60px;
+      // padding: 13px 40px;
+      font-size: 13.5px;
+      margin: 8px 5px;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+
+    button:nth-child(even) {
+      padding: 13px 68px;
+    }
+  }
+
+  // Footer
+  footer {
+    height: 125vh;
+
+    .container {
+      width: 98%;
+    }
+
+    // position: relative;
+    // height: 105vh;
+    // margin: 0rem auto 0rem auto;
+    // background: $blue-background-light;
+    // padding: 3rem 0rem 0rem 0rem;
+
+    img {
+      width: 45%;
+      position: absolute;
+      top: 45px;
+      left: 30px;
+    }
+
+    .main-links {
+      display: grid;
+      margin: 3.5rem auto 1rem auto;
+    }
+
+    .main-link {
+      h3 {
+        font-size: 14px;
+        margin: 10px 0px;
+      }
+
+      a {
+        margin: 0.4rem 0rem;
+        font-size: 12px;
+        width: 115%;
+      }
+
+      p {
+        font-size: 12px;
+        font-weight: 400;
+        width: 90%;
+      }
+    }
+  }
+
+  // Section 7 (end-footer)
+  .section7 {
+    margin: 0rem auto 0rem auto;
+    height: 57vh;
+
+    .footer-links {
+      margin: 3rem auto 0rem auto;
+    }
+
+    .footer-link {
+      display: flex;
+      justify-content: space-around;
+      margin: 1rem auto;
+
+      h3 {
+        margin: 0px 12px;
+        font-size: 14.5px;
+        cursor: pointer;
+      }
+
+      img {
+        width: 20%;
+      }
+    }
+
+    p {
+      margin: 1rem auto 0.5rem auto;
+      font-size: 14px;
+      width: 80%;
+    }
+  }
+}

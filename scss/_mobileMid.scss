@@ -1,0 +1,44 @@
+// Reponsivness for Mobile - Mid (400px)
+
+@media screen and (max-width: 400px) {
+  // Section3 (Progress)
+  .section3 {
+    .progress {
+      .line {
+        left: 6.6rem;
+      }
+    }
+  }
+
+  // Section 4 (Offices)
+  .section4 {
+    height: 136vh;
+  }
+
+  // Section 5 (Our Investors)
+  .section5 {
+    height: 165vh;
+  }
+
+  // Request Demo
+  .section6 {
+    height: 90vh;
+  }
+
+  // Footer
+  footer {
+    height: 126vh;
+
+    img {
+      width: 45%;
+      position: absolute;
+      top: 45px;
+      left: 100px;
+    }
+  }
+
+  // Section 7 (end-footer)
+  .section7 {
+    height: 55vh;
+  }
+}

@@ -1,0 +1,308 @@
+// Reponsivness for Mobile - Max (500px)
+
+@media screen and (max-width: 500px) {
+  body {
+    // background: yellow;
+  }
+
+  .container {
+    width: 87%;
+    margin: 0 auto;
+  }
+
+  // NavBar
+  nav {
+    width: 87%;
+    margin: 1rem auto 0rem auto;
+
+    img {
+      width: 40%;
+    }
+
+    .nav-btn {
+      display: none;
+    }
+  }
+
+  // Section 1 (header)
+  .section1 {
+    margin: 2rem 0rem 0rem 0rem;
+
+    .head-img {
+      background-image: url("/assets/tabletheadImg.png");
+      background-position: center;
+      // background-repeat: no-repeat;
+      // background-size: cover;
+      // margin: 0 auto;
+      height: 425px;
+      // width: 80%;
+      // display: none;
+    }
+  }
+
+  .section1-text {
+    margin: 02rem 0rem 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-size: 47px;
+      margin: 20px auto;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.78;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0px;
+    }
+  }
+
+  // Our Culture
+  .section2 {
+    margin: 3rem auto 0rem auto;
+    text-align: center;
+    // background-color: $main-blue-light;
+    // padding: 20px;
+    // color: white !;
+
+    h1 {
+      font-size: 45px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.68;
+      margin: 0.5rem auto 1rem auto;
+      width: 80%;
+    }
+
+    .testimonials {
+      margin: 5rem 0rem 0rem 0rem;
+      text-align: left;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+
+      h2 {
+        margin: 1rem 0rem 1rem 0rem;
+      }
+
+      p {
+        width: 100%;
+      }
+    }
+    .section2-end {
+      margin: 4.5rem 0rem 0rem 0rem;
+
+      p {
+        color: $blue-text-dark;
+        font-weight: 600;
+      }
+
+      button {
+        font-size: 16px;
+        padding: 15px 20px;
+      }
+    }
+  }
+
+  // Section3 (Progress)
+  .section3 {
+    margin: 3rem 0rem 0rem 0rem;
+
+    .container {
+      width: 100%;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 44px;
+    }
+
+    .progress {
+      margin: 3rem auto 4rem auto;
+      padding: 32px 10px 100px 10px;
+      width: 100%;
+
+      .line {
+        left: 7.8rem;
+      }
+
+      .progress-div {
+        margin: 70px auto 0px auto;
+
+        h2 {
+          font-size: 18px;
+          width: 90%;
+          text-align: left;
+          margin: 0px 0px 0px 20px;
+        }
+
+        img {
+          width: 80%;
+          margin: 0px 0px 0px 9px;
+        }
+      }
+    }
+  }
+
+  // Section 4 (Offices)
+  .section4 {
+    margin: 4rem 0rem 0rem 0rem;
+    height: 120vh;
+
+    h1 {
+      font-size: 44px;
+    }
+
+    p {
+      font-size: 17px;
+      width: 100%;
+    }
+
+    .offices-flex-img {
+      display: none;
+    }
+
+    .offices {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .office {
+      margin: 0.5rem auto;
+      width: 290px;
+      height: 250px;
+
+      img {
+        margin: 1.5rem 0rem 0.5rem 0;
+      }
+
+      h2 {
+        margin: 5px 0px;
+      }
+
+      p {
+        width: 100%;
+      }
+    }
+  }
+
+  // Section 5 (Our Investors)
+  .section5 {
+    height: 150vh;
+
+    h1 {
+      font-size: 44px;
+      margin: 5rem auto 0rem auto;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 0.5rem auto 2rem auto;
+      width: 90%;
+    }
+
+    .investors {
+      margin: 3rem auto 0rem auto;
+      grid-column-gap: 20px;
+      grid-template-columns: 1fr;
+    }
+
+    .investor {
+      img {
+        width: 70%;
+      }
+    }
+  }
+
+  // Request Demo
+  .section6 {
+    height: 80vh;
+
+    h1 {
+      font-size: 42px;
+      margin: 1.5rem auto 0rem auto;
+      width: 100%;
+    }
+
+    p {
+      line-height: 1.68;
+    }
+
+    button {
+      padding: 13px 40px;
+      font-size: 13.5px;
+      margin: 8px 5px;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+
+    button:nth-child(even) {
+      padding: 13px 50px;
+    }
+  }
+
+  // Footer
+  footer {
+    .container {
+      width: 98%;
+    }
+
+    position: relative;
+    height: 105vh;
+    margin: 0rem auto 0rem auto;
+    background: $blue-background-light;
+    padding: 3rem 0rem 0rem 0rem;
+
+    img {
+      width: 35%;
+      position: absolute;
+      top: 40px;
+      left: 150px;
+    }
+
+    .main-links {
+      display: grid;
+      grid-row-gap: 30px;
+      grid-template-columns: repeat(1, 1fr);
+      margin: 3.5rem auto 1rem auto;
+    }
+
+    .main-link {
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        font-family: $main-font;
+        color: $blue-text-dark;
+        font-size: 17.5px;
+        margin: 10px 0px;
+      }
+
+      a {
+        text-decoration: none;
+        list-style-type: none;
+        color: $blue-text-light;
+        margin: 2px 0px;
+        font-weight: 400;
+
+        &:hover {
+          color: $main-blue-light;
+        }
+      }
+
+      p {
+        text-decoration: none;
+        list-style-type: none;
+        color: $blue-text-light;
+        margin: 2px 0px;
+        font-weight: 400;
+      }
+    }
+  }
+}

@@ -1,0 +1,338 @@
+// Reponsivness for Tablet (768px)
+
+@media screen and (max-width: 768px) {
+  body {
+    // background-color: yellow;
+  }
+
+  .container {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  // NavBar
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+    margin: 1rem auto 0rem auto;
+
+    img {
+      width: 27%;
+    }
+
+    .line {
+      display: block;
+    }
+
+    .nav-links {
+      position: absolute;
+      left: 230px;
+      top: 10vh;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 30px;
+      background: $main-blue-light;
+      border-radius: 10px;
+      display: none;
+
+      li {
+        margin: 5px 0px;
+      }
+
+      a {
+        color: white;
+      }
+    }
+
+    .menu-btn {
+      order: 1;
+    }
+
+    .nav-btn {
+      order: 2;
+    }
+  }
+
+  // Section 1 (header)
+  .section1 {
+    margin: 2rem 0rem 0rem 0rem;
+
+    .head-img {
+      display: inline-block;
+      background-image: url("/assets/tabletheadImg.png");
+      background-size: cover;
+      margin: 0 auto;
+    }
+  }
+
+  .section1-text {
+    margin: 3rem 0rem 0rem 0rem;
+
+    h1 {
+      font-size: 43px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.68;
+      padding: 0px 20px;
+    }
+  }
+
+  // Testimonial
+  .section2 {
+    margin: 2rem 0rem 0rem 0rem;
+
+    h1 {
+      font-size: 44px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.68;
+      margin: 0.5rem auto 1rem auto;
+      width: 72%;
+    }
+
+    .testimonials {
+      margin: 3rem 0rem 0rem 0rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+
+      h2 {
+        color: $blue-text-dark;
+        font-family: $main-font;
+        font-size: 18px;
+        margin: 1rem 0rem 1rem 0rem;
+      }
+
+      p {
+        width: 100%;
+      }
+
+      .testimonial {
+        padding: 25px 25px;
+      }
+    }
+    .section2-end {
+      p {
+        color: $blue-text-dark;
+        font-weight: 600;
+        font-size: 16px;
+        width: 70%;
+      }
+
+      button {
+        font-size: 15px;
+        padding: 15px 20px;
+        margin: 1rem auto 1rem auto;
+      }
+    }
+  }
+
+  // Section3 (Progress)
+  .section3 {
+    margin: 3rem 0rem 0rem 0rem;
+
+    h1 {
+      font-size: 44px;
+    }
+
+    .progress {
+      margin: 2rem auto 4rem auto;
+      padding: 32px 10px;
+      width: 90%;
+
+      .line {
+        left: 8.9rem;
+      }
+
+      .progress-div {
+        h2 {
+          font-size: 16px;
+        }
+
+        img {
+          width: 60%;
+        }
+      }
+
+      &:hover {
+        background-color: rgb(212, 235, 251);
+        transition: 0.35s ease-in-out;
+      }
+    }
+  }
+
+  // Section 4 (Offices)
+  .section4 {
+    margin: 6rem 0rem 0rem 0rem;
+    height: 60vh;
+
+    h1 {
+      font-size: 44px;
+    }
+
+    p {
+      font-size: 16px;
+      width: 70%;
+    }
+
+    .offices-flex-img {
+      display: none;
+    }
+
+    .offices {
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .office {
+      width: 290px;
+      height: 250px;
+      border: 0px solid $main-blue-light;
+
+      img {
+        margin: 1.5rem 0rem 0.5rem 0;
+      }
+
+      h2 {
+        color: $blue-text-dark;
+        font-family: $main-font;
+        margin: 5px 0px;
+        line-height: 1.5;
+      }
+
+      p {
+        width: 100%;
+      }
+    }
+  }
+
+  // Section 5 (Our Investors)
+  .section5 {
+    height: 70vh;
+
+    h1 {
+      font-size: 44px;
+      margin: 5rem auto 0rem auto;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.68;
+      margin: 1rem auto 2rem auto;
+      width: 70%;
+    }
+
+    .investors {
+      margin: 3rem auto 0rem auto;
+      grid-column-gap: 20px;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .investor {
+      padding: 15px 20px;
+      width: 300px;
+      height: 140px;
+
+      img {
+        width: 75%;
+      }
+    }
+  }
+
+  // Section 6 (Request Demo)
+  .section6 {
+    padding: 50px 20px;
+    height: 42vh;
+
+    h1 {
+      font-size: 44px;
+      margin: 2rem auto 0rem auto;
+      width: 80%;
+    }
+
+    p {
+      font-size: 19px;
+      font-weight: 400;
+      color: $blue-text-light;
+      line-height: 1.98;
+      margin: 1rem 0rem 1.5rem 0rem;
+    }
+
+    button {
+      padding: 13px 40px;
+      font-size: 13.5px;
+      margin: 0px 5px;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+  }
+
+  // Footer
+  footer {
+    height: 65vh;
+    padding: 4rem 0rem 0rem 0rem;
+
+    img {
+      width: 80%;
+      display: inline-block;
+    }
+
+    .flex1 {
+      grid-column: 2/4;
+      grid-row: 2;
+    }
+
+    .flex2 {
+      grid-column: 3/4;
+      grid-row: 2;
+    }
+
+    .main-links {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 30px;
+      grid-row-gap: 30px;
+    }
+
+    .main-link {
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        font-size: 16px;
+        margin: 7px 0px 10px 0px;
+      }
+    }
+  }
+
+  // Section 7 (end-footer)
+  .section7 {
+    margin: 0rem auto 0rem auto;
+    height: 30vh;
+    text-align: center;
+
+    .footer-links {
+      margin: 4rem auto 0rem auto;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footer-link {
+      display: flex;
+      justify-content: space-around;
+      margin: 1rem auto;
+
+      h3 {
+        margin: 0px 12px;
+        font-size: 17.5px;
+        cursor: pointer;
+      }
+    }
+  }
+}
