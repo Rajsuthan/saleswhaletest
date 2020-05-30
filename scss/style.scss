@@ -300,7 +300,7 @@ nav {
       // background-color: $blue-background-light;
       // border-left: 6.5px solid $blue-text-dark;
       border-left: 0px solid $main-blue-light;
-      transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out !important;
       // transform: scale(1.035);
 
       h2 {
@@ -364,7 +364,7 @@ nav {
     &:hover {
       box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.07);
       border-bottom: 4px solid white;
-      transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out !important;
     }
 
     img {
